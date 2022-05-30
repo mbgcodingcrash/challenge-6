@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <title>Weather Machine</title>
+    <link href="./assets/styles.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+    <header>
+        <h1>Weather Machine</h1>
+    </header>
+    <div class="container">
+        <div class="row">
+            <div class="col s3" id="search-container">
+                <input id="search-city" type="text" placeholder="city"/>
+                <button type="submit" id="search-button">Searh</button>
+                <h4>Search History</h4>
+                    <div class="collection" id="search-history"> 
+                        <a href="#!" class="collection-item">Austin</a>
+                    </div>
+            </div>
+            <div class="col s9" id="display-container">
+
+                <div id="current-conditions">
+                    <h5 class="center ">Current Conditions</h5>
+                    <div></div>
+                
+                    <div class="divider"></div>
+                    <div class="row>">
+                        <div class="row">
+                            <h5 class="center ">Five Day Forcast</h5>
+                        </div>
+                        <div id="future-conditions">
+                            <div class="col  custom-col card small" id="day-one">
+
+                            </div>
+                            <div class="col custom-col card small" id="day-two">day tw</div>
+                            <div class="col custom-col card small" id="day-three">day-one</div>
+                            <div class="col custom-col card small" id="day-four">day-one</div>
+                            <div class="col custom-col card small" id="day-five">day-one</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+        
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <script src="assets/java.js"></script>
+</body>
+</html>

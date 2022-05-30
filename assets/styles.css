@@ -1,0 +1,18 @@
+*{
+    margin: 0   ;
+}
+
+
+header{
+    text-align: center;
+    color: aliceblue;
+    background-color: darkslategrey;
+    border-radius: 10pt;
+}
+
+.custom-col{
+    width: 20%;
+    margin-left:auto;
+    left: auto ;
+    right: auto;
+}
