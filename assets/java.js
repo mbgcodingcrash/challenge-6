@@ -16,6 +16,8 @@ const fetchHistoricalWeatherData = async () => {
 
 //event listener for input field
 
+
+
 //save input and city data to local storage
 
 //display city data on screen

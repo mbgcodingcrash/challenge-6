@@ -14,24 +14,27 @@
     <header>
         <h1>Weather Machine</h1>
     </header>
+
+    <!-- Search Bar Section-->
     <div class="container">
         <div class="row">
-            <div class="col s3" id="search-container">
+            <form class="col s3" id="search-container">
                 <input id="search-city" type="text" placeholder="city"/>
                 <button type="submit" id="search-button">Searh</button>
                 <h4>Search History</h4>
                     <div class="collection" id="search-history"> 
                         <a href="#!" class="collection-item">Austin</a>
                     </div>
-            </div>
-            <div class="col s9" id="display-container">
+            </form>
 
+            <!--Current Conditions section-->
+            <div class="col s9" id="display-container">
                 <div id="current-conditions">
                     <h5 class="center ">Current Conditions</h5>
                     <div></div>
-                
-                    <div class="divider"></div>
-                    <div class="row>">
+                        <div class="divider"></div>
+
+                        <!--Future Condtions-->
                         <div class="row">
                             <h5 class="center ">Five Day Forcast</h5>
                         </div>
@@ -45,7 +48,6 @@
                             <div class="col custom-col card small" id="day-five">day-one</div>
                         </div>
                     </div>
-                </div>
             </div>
         </div>
     </div>
